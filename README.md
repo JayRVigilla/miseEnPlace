@@ -1,10 +1,14 @@
 # Mise en place: *everything* in it's place
 Well, probably not really everything, but the things I use often. I'm creating a boilerplate for React projects. I've grabbed components from [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate) and components created in other projects that I use often. This will grow as my projects change. This is set up for Personal/Business webpages.
 
+
+
 This project was initially bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Features
 
+### @MISE@
+Search for `@MISE@` throughout this project to see all the places tagged for personal/project-specific values. Some are obvious, like the title and icon in `index.html`, but there are other values too.
 ### EmailJS
 [EmailJS](https://www.emailjs.com/) sends mail from JavaScript without a server!
 ### Surge
