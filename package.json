@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "demo": "npm run build && cp build/index.html build/200.html && surge build https://SURGE-URL-demo.surge.sh",
-    "deploy": "npm run build && cp build/index.html build/200.html && surge build @MISE@--CLIENT_URL",
+    "deploy": "npm run build && cp build/index.html build/200.html && surge build @MISE@--CLIENT_URL"
   },
   "eslintConfig": {
     "extends": [

@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Mise en place: *everything* in it's place
+Well, probably not really everything, but the things I use often. I'm creating a boilerplate for React projects. I've grabbed components from [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate) and components created in other projects that I use often. This will grow as my projects change. This is set up for Personal/Business webpages.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was initially bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Features
+
+### EmailJS
+[EmailJS](https://www.emailjs.com/) sends mail from JavaScript without a server!
+### Surge
+[Surge](https://surge.sh/) let's you deploy front-end projects for free! You can create a `.sh` address, use a domain you own, or use the random one they would otherwise generate for you. You need to get an account and set up your computer with Surge. Available for use as scripts in package.json.
 
 ## Available Scripts
 
@@ -39,32 +47,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `npm run demo`
+Runs `npm run build` and deploys demo on Surge. You need to create values for demo URL in package.json.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `npm run deploy`
+Runs `npm run build` and deploys via Surge. You need to create values for client URL in package.json.
