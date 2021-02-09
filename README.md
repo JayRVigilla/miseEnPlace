@@ -13,7 +13,8 @@ Search for `@MISE@` throughout this project to see all the places tagged for per
 [EmailJS](https://www.emailjs.com/) sends mail from JavaScript without a server! Great for Contact pages and automated emails. Free to start, payment tiers allow for more automated emails.
 ### Surge
 [Surge](https://surge.sh/) let's you deploy front-end projects for free! You can create a `.sh` address, use a domain you own, or use the random one they would otherwise generate for you. You need to get an account and set up your computer with Surge. Available for use as scripts in package.json.
-
+### React Meta Tags
+[React Meta Tags](https://github.com/s-yadav/react-meta-tags) is a tool I use for SEO. Each page can have their own Meta Tags and Meta descriptions. Its' really easy to use! `npm install` it and treat it like a component at the top of your route components. **NOTE** You should be thorough and place a `MetaTitle` component at the top of every route. If you go to a route with a custom title/meta description then go to a new route without customization, the custom tags will follow you until you go to a new page with a custom title/meta. I have not learned how to set a default yet.
 ## Available Scripts
 
 In the project directory, you can run:
