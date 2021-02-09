@@ -57,3 +57,7 @@ Runs `npm run build` and deploys demo on Surge. You need to create values for de
 
 ### `npm run deploy`
 Runs `npm run build` and deploys via Surge. You need to create values for client URL in package.json.
+
+## File Structure
+### /components
+### /containers

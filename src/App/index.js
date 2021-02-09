@@ -1,4 +1,6 @@
 import './App.css';
+require('dotenv').config()
+
 
 function App() {
   return (
