@@ -10,7 +10,7 @@ This project was initially bootstrapped with [Create React App](https://github.c
 ### @MISE@
 Search for `@MISE@` throughout this project to see all the places tagged for personal/project-specific values. Some are obvious, like the title and icon in `index.html`, but there are other values too.
 ### EmailJS
-[EmailJS](https://www.emailjs.com/) sends mail from JavaScript without a server!
+[EmailJS](https://www.emailjs.com/) sends mail from JavaScript without a server! Great for Contact pages and automated emails. Free to start, payment tiers allow for more automated emails.
 ### Surge
 [Surge](https://surge.sh/) let's you deploy front-end projects for free! You can create a `.sh` address, use a domain you own, or use the random one they would otherwise generate for you. You need to get an account and set up your computer with Surge. Available for use as scripts in package.json.
 
