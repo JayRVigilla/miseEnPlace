@@ -8,13 +8,15 @@ This project was initially bootstrapped with [Create React App](https://github.c
 ## Features
 
 ### @MISE@
-Search for `@MISE@` throughout this project to see all the places tagged for personal/project-specific values. Some are obvious, like the title and icon in `index.html`, but there are other values too.
+Search for `@MISE@` throughout this project to see all the places tagged for project-specific values. Some are obvious, like the title and icon in `index.html`, but there are other values too. I'll update this to a `dotenv` file, but until then...
 ### EmailJS
 [EmailJS](https://www.emailjs.com/) sends mail from JavaScript without a server! Great for Contact pages and automated emails. Free to start, payment tiers allow for more automated emails.
 ### Surge
 [Surge](https://surge.sh/) let's you deploy front-end projects for free! You can create a `.sh` address, use a domain you own, or use the random one they would otherwise generate for you. You need to get an account and set up your computer with Surge. Available for use as scripts in package.json.
 ### React Meta Tags
 [React Meta Tags](https://github.com/s-yadav/react-meta-tags) is a tool I use for SEO. Each page can have their own Meta Tags and Meta descriptions. Its' really easy to use! `npm install` it and treat it like a component at the top of your route components. **NOTE** You should be thorough and place a `MetaTitle` component at the top of every route. If you go to a route with a custom title/meta description then go to a new route without customization, the custom tags will follow you until you go to a new page with a custom title/meta. I have not learned how to set a default yet.
+### React Snap
+[React Snap](https://github.com/stereobooster/react-snap) pre-renders to static HTML. This comes in handy when trying to get a React App crawled by Google. Google generally misses React Apps unless they are Server Side Rendered (SSR) or pre-rendered. When a React app is rendered it comes as an empty HTML page that then dynamically renders via javascript. Google-bots are fast enough to look just at the HTML and move on. Obviously this approach falls apart when you need any interactivity on the page. But this shines when you're rendering a static, read-only page (like a blog article) and don't need any other bloat. [Instructions for use here (but did the heavy lifting already, just make your app)](https://web.dev/prerender-with-react-snap/)
 ## Available Scripts
 
 In the project directory, you can run:
